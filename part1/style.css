@@ -1,0 +1,121 @@
+:root {
+    --background-color: #F0F2F5;
+    --primary-color: #404EED;
+    --white: #fff;
+    --grey: #E7E7E7;
+    --roxo: #7241a1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: var(--background-color);
+    --webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: var(--primary-color);
+}
+
+.header header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.header header .meus-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.meus-links a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 600;
+    transition: 0.6s;
+}
+
+.meus-links a:hover {
+    color: black;
+}
+
+.header header div button {
+    border: none;
+    background-color: var(--background-color);
+    border-radius: 20px;
+    padding: 10px;
+
+    transition: 0.6s;
+}
+
+.header header div button:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.background-main {
+    background-color: var(--primary-color);
+    min-height: 70vh;
+    padding-top: 4rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text .text-central {
+    text-align: center;
+    color: var(--white);
+    padding: 2rem;
+
+}
+
+.text h1 {
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1;
+    text-align: center;
+}
+
+.text input {
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    width: 30%;
+}
+
+.text .subtext {
+    margin-top: 2rem;
+    color: var(--white);
+    font-size: 1rem;
+}
+
+.text .subtext a {
+    color: var(--grey);
+}

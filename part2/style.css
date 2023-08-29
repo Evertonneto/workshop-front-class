@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.vermelho {
+    width: 140px;
+    height: 140px;
+    background-color: red;
+}
+
+.amarelo {
+    width: 140px;
+    height: 140px;
+    background-color: yellow;
+}
+
+.verde {
+    width: 140px;
+    height: 140px;
+    background-color: green;
+}
